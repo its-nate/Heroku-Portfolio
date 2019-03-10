@@ -1,0 +1,137 @@
+/* Color Palette
+#F5F9F2 - White Smoke
+#D5DFE5 - Gainsboro
+#757780 - Sonic Silver
+#000000 - Black
+#208AAE - Cyan Cornflower Blue
+*/
+
+/* 
+===================================
+Universal Styles
+===================================
+*/
+
+/* 
+===================================
+Sticky Footer
+===================================
+*/
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* 
+===================================
+Fonts
+===================================
+*/
+
+body {
+  font-family: Raleway, Arial, sans-serif;
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: none;
+}
+
+h2 {
+  font-size: 225%;
+  margin: auto;
+}
+
+h2 a {
+  color: #F5F9F2;
+  padding: 5px;
+}
+
+h2 a:visited {
+  color: #F5F9F2;
+}
+
+h2 a:hover {
+  color: #F5F9F2;
+}
+
+.nav-items,
+.footer-theme {
+  color: #F5F9F2 !important;
+}
+
+.nav-items,
+.active-nav {
+  font-size: 125%;
+}
+
+.active-nav {
+  color: #000 !important;
+}
+
+.footer-icons {
+  color: #F5F9F2;
+  padding: 10px;
+}
+
+.body-text {
+  color: #208AAE;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.links {
+  color: black;
+}
+
+.links:hover {
+  color: #208AAE;
+}
+
+.body-icons {
+  color: #208AAE;
+  padding: 10px 25px;
+  font-size: 36px;
+}
+
+/* 
+===================================
+Backgrounds
+===================================
+*/
+
+.body-theme {
+  background-color: #F5F9F2;
+}
+
+.nav-theme,
+.footer-theme {
+  background-color: #208AAE;
+}
