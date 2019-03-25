@@ -25,11 +25,6 @@ app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "./index.html"));
 });
 
-// Index.html
-app.get("/index", function(req, res) {
-  res.sendFile(path.join(__dirname, "./index.html"));
-});
-
 // Portfolio.html
 app.get("/portfolio", function (req, res) {
     res.sendFile(path.join(__dirname, "./portfolio.html"));
