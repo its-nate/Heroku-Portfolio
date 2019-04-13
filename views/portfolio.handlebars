@@ -1,0 +1,41 @@
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+    <div class="container">
+        <h1 class="mt-5 text-center text-lg-left">Portfolio Projects</h1>
+        <hr>
+        <!-- Start Row -->
+        <div class="row mb-4">
+            {{#each projects}}
+            <!-- Start Column -->
+            <div class="col-12 col-lg-6 mt-3">
+                <div class="card d-block m-auto w-75">
+                    <img src="{{img}}" class="card-img-top" alt="{{alt}}">
+                    <div class="card-body">
+                        <h4 class="card-text text-center">{{name}}</h4>
+                        <h5 class="card-text text-center">{{desc}}</h5>
+                        <p class="card-text text-center">{{tech}}</p>
+                        <hr>
+                        <a class="text-decoration-none links" href="{{github}}"
+                            target="_blank">
+                            <p class="card-text text-center"><i class="fab fa-github"></i> Source
+                        </a> &nbsp; &nbsp; <a class="text-decoration-none links" href="{{site}}"
+                            target="_blank"><i class="fas fa-desktop"></i> Site</p></a>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+            <!-- End Row -->
+        </div>
+    </div>
+</main>
+
+<script>
+    $(document).ready(function() {
+          // Revert all to white
+        $(".nav-link").removeClass("active-nav");
+        $(".nav-link").addClass("nav-items")
+        // Set clicked to black
+        $("#p").removeClass("nav-items");
+        $("#p").addClass("active-nav");
+    });
+</script>

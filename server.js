@@ -5,11 +5,21 @@ Dependencies
 */
 
 var express = require("express");
-var path = require("path");
+var projects = require("./data");
 
 // Express App
 var app = express();
 var PORT = process.env.PORT || 4000;
+
+// Handlebars
+var exphbs = require("express-handlebars");
+app.engine(
+    "handlebars",
+    exphbs({
+        defaultLayout: "main"
+    })
+);
+app.set("view engine", "handlebars");
 
 /*
 ===============================
@@ -21,18 +31,18 @@ Routes
 app.use(express.static("public"));
 
 // Root
-app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "./index.html"));
+app.get("/", function (req, res) {
+    res.render("about");
 });
 
 // Portfolio.html
 app.get("/portfolio", function (req, res) {
-    res.sendFile(path.join(__dirname, "./portfolio.html"));
+    res.render("portfolio", {projects: projects});
 });
 
 // Contact.html
 app.get("/contact", function (req, res) {
-    res.sendFile(path.join(__dirname, "./contact.html"));
+    res.render("contact");
 });
 
 /*
