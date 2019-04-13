@@ -37,3 +37,14 @@
         </p>
     </div>
 </main>
+
+<script>
+    $(document).ready(function () {
+        // Revert all to white
+        $(".nav-link").removeClass("active-nav");
+        $(".nav-link").addClass("nav-items")
+        // Set clicked to black
+        $("#a").removeClass("nav-items");
+        $("#a").addClass("active-nav");
+    });
+</script>

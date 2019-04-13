@@ -5,7 +5,6 @@ Dependencies
 */
 
 var express = require("express");
-var path = require("path");
 var projects = require("./data");
 
 // Express App
