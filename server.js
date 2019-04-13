@@ -6,6 +6,7 @@ Dependencies
 
 var express = require("express");
 var path = require("path");
+var projects = require("./data");
 
 // Express App
 var app = express();
@@ -37,7 +38,7 @@ app.get("/", function (req, res) {
 
 // Portfolio.html
 app.get("/portfolio", function (req, res) {
-    res.render("portfolio");
+    res.render("portfolio", {projects: projects});
 });
 
 // Contact.html
