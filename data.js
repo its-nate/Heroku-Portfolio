@@ -18,13 +18,22 @@ var projects = [
         site: "https://dearlorditsnate.github.io/TravelerCheck/"
     },
     {
+        name: "News Scraper",
+        desc: "Scrape and save articles and add notes",
+        tech: "Node, Express, MongoDB, Mongoose, Handlebars, Cheerio",
+        img: "/assets/images/scraper.png",
+        alt: "Screen capture of News Scraper app",
+        github: "https://github.com/DearLorditsNate/news-scraper",
+        site: "https://nates-burger.herokuapp.com/"
+    },
+    {
         name: "Eat Da Burger",
         desc: "Create burgers, eat burgers",
         tech: "Node, Express, MySQL, Handlebars",
         img: "/assets/images/burger.png",
         alt: "Screen capture of Eat Da Burger app",
         github: "https://github.com/DearLorditsNate/burger",
-        site: "https://nates-burger.herokuapp.com/"
+        site: "https://nates-news-scraper.herokuapp.com/"
     },
     {
         name: "Friend Finder",
