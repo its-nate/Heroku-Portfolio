@@ -134,3 +134,17 @@ Backgrounds
 .footer-theme {
   background-color: #208AAE;
 }
+
+/* 
+===================================
+Portfolio Cars
+===================================
+*/
+
+.card {
+  min-height: 440px;
+}
+
+.card img {
+  min-height: 225px;
+}

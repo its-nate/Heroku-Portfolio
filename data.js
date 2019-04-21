@@ -73,7 +73,7 @@ var projects = [
     },
     {
         name: "CrystalCollector",
-        desc: "A jQuery-based number matching game.",
+        desc: "A jQuery number matching game",
         tech: "jQuery, JavaScript",
         img: "/assets/images/rpg.png",
         alt: "Screen capture of crystal collector game",
