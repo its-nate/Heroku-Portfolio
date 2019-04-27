@@ -18,6 +18,15 @@ var projects = [
         site: "https://dearlorditsnate.github.io/TravelerCheck/"
     },
     {
+        name: "Clicky Game",
+        desc: "Star Wars themed memory game",
+        tech: "React",
+        img: "/assets/images/clicky-game.png",
+        alt: "Screen capture of Clicky Game app",
+        github: "https://github.com/DearLorditsNate/clicky-game",
+        site: "https://dearlorditsnate.github.io/clicky-game/"
+    },
+    {
         name: "News Scraper",
         desc: "Scrape and save articles and add notes",
         tech: "Node, Express, MongoDB, Mongoose, Handlebars, Cheerio",
