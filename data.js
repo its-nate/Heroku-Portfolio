@@ -18,6 +18,15 @@ var projects = [
         site: "https://dearlorditsnate.github.io/TravelerCheck/"
     },
     {
+        name: "Google Books Search",
+        desc: "MERN stack book search app",
+        tech: "React, Node, Express, MongoDB, Mongoose",
+        img: "/assets/images/google-books.png",
+        alt: "Screen capture of Google Books Search app",
+        github: "https://github.com/DearLorditsNate/google-books-search",
+        site: "https://nates-book-search.herokuapp.com/"
+    },
+    {
         name: "Clicky Game",
         desc: "Star Wars themed memory game",
         tech: "React",
