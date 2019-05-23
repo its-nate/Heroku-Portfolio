@@ -1,5 +1,14 @@
 var projects = [
-        {
+    {
+        name: "JavaScript Entertainment System",
+        desc: "Retro Arcade Games in the Browser",
+        tech: "React, Node, Express, MongoDB",
+        img: "/assets/images/jes.png",
+        alt: "Screen capture of JES app",
+        github: "https://github.com/DearLorditsNate/arcade",
+        site: "https://js-entertainment-system.herokuapp.com/"
+    },
+    {
         name: "Yum(Me)",
         desc: "Digital Recipe Book",
         tech: "Node, Express, MySQL, Sequelize",
