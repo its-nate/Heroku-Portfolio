@@ -51,7 +51,7 @@ var projects = [
         img: "/assets/images/scraper.png",
         alt: "Screen capture of News Scraper app",
         github: "https://github.com/DearLorditsNate/news-scraper",
-        site: "https://nates-burger.herokuapp.com/"
+        site: "https://nates-news-scraper.herokuapp.com/"
     },
     {
         name: "Eat Da Burger",
@@ -60,7 +60,7 @@ var projects = [
         img: "/assets/images/burger.png",
         alt: "Screen capture of Eat Da Burger app",
         github: "https://github.com/DearLorditsNate/burger",
-        site: "https://nates-news-scraper.herokuapp.com/"
+        site: "https://nates-burger.herokuapp.com/"
     },
     {
         name: "Friend Finder",
