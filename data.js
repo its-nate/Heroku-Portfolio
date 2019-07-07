@@ -1,4 +1,13 @@
 var projects = [
+        {
+        name: "Beyond the Block, Inc.",
+        desc: "Modern and functional update to the organizational website—in progress.",
+        tech: "React, Node, Express",
+        img: "/assets/images/btb.png",
+        alt: "Beyond the Block, Inc. Logo",
+        github: "https://btb-website.herokuapp.com/",
+        site: "https://btb-website.herokuapp.com/"
+    },
     {
         name: "JavaScript Entertainment System",
         desc: "Retro Arcade Games in the Browser",
